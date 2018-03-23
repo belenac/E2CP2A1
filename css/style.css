@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .85em;
+}
+li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+.container {
+	width: 100%;
+	max-width: 860px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.seccion {
+	padding: 4em 0;
+}
+.seccion.not-pdd-bot {
+	padding: 3em 0 0 0;
+}
+.menu {
+	display: flex;
+}
+header {
+	background-image: url(../images/bg.jpeg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 2em;
+}
+header .top {
+	display: flex;
+	justify-content: flex-end;
+}
+header .top .logo {
+	width: 50%;
+}
+header .top .logo img{
+	width: 100px;
+}
+header .top nav {
+	width: 50%;
+}
+header .top nav .menu {
+	justify-content: flex-end;
+}
+header .top nav .menu li{
+	display: inline-block;
+	margin-left: 10px;
+}
+header .top nav .menu li a {
+	color: gray;
+}
+header .top nav .menu li a:hover {
+	color: white;
+}
+.titulo-header {
+	padding: 1em 0;
+	text-align: center;
+	color: white;
+}
+.titulo-header h1 {
+	font-weight: 100;
+}
+.titulo-header .menu {
+	justify-content: center;
+	margin: 2em 0 1em 0; 
+}
+.titulo-header .menu li{
+	
+}
+.titulo-header .menu li a{
+	color: white;
+	padding: .5em 1em;
+	margin-left: 10px;
+	border-radius: 5px;
+	font-size: .95em;
+}
+.titulo-header .menu li.verde a{
+	background-color: mediumseagreen;
+}
+.titulo-header .menu li.azul a{
+	background-color: dodgerblue;
+}
+.titulo-header p{
+	font-size: .8em;
+	margin-top: 1.5em;
+}
+.center {
+	text-align: center;
+}
+.clear {
+	clear: both;
+}
+.info {
+}
+.info p{
+	margin-top: 1em;
+}
+.info img {
+	width: 300px;
+	margin-top: 3em;
+}
+.solicitar-info {
+	background-color: #fafafa;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin-top: -5px;
+}
+.solicitar-info p {
+	margin: .5em 0;
+	font-size: .9em;
+}
+.solicitar-info p.small {
+	font-size: .8em;
+}
+.solicitar-info .menu {
+	justify-content: center;
+	margin: 1em;
+}
+.solicitar-info .menu li a {
+	color: white;
+	padding: .5em 1em;
+	margin-left: 10px;
+	border-radius: 5px;
+	font-size: .95em;
+	background-color: dodgerblue;
+}
+.cont {
+	width: 30%;
+	float: left;
+}
+.cont h4, .subcr h4 {
+	font-size: 1.2em;
+	font-weight: 600;
+	margin-bottom: .5em;
+}
+.cont a {
+	color: #6ac6ff;
+}
+.subcr p {
+	margin-bottom: .5em;
+}
+.subcr input[type=email] {
+	padding: .5em;
+}
+.subcr input[type=submit] {
+	padding: .6em 1.5em;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+footer {
+	background-color: black;
+	color: white;
+	padding: 1.5em 0;
+}
+
+@media screen and (max-width: 790px) {
+	.cont {
+		margin-bottom: 1.5em;
+		width: 100%;
+	}
+}
